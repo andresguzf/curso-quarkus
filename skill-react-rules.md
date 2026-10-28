@@ -4,9 +4,9 @@
 ```
 1. Skill name: ‘react-rules’ 
 2. Create new Skill, description: que Genere un proyecto con la estructura de React con TypeScript.
-3. Location for skill folder, crealo dentro del directorio del proyecto ‘.agents/skills/react-rules/SKILL.md‘
+3. Location for skill folder, crealo dentro del directorio del proyecto ‘.claude/skills/react-rules/SKILL.md‘
 4. Specific Instructions:
-    - Utiliza Next.js (version más reciente disponible) + React version 19.3.1 o superior disponible revisar en documentación de react en https://www.npmjs.com/package/react
+    - Utiliza React version 19.3.1 o superior disponible revisar en documentación de react en https://www.npmjs.com/package/react
     - Usa TypeScript en lugar de JavaScript para mejorar el tipado, la seguridad del código y la mantenibilidad en aplicaciones React.
     - Usa Zustand para estado global creando un store con create() donde defines estado y acciones.
     - Usa Zod para validar datos mediante esquemas (z.object, z.string) y valida con parse o safeParse.
@@ -26,13 +26,5 @@
     - Evita side effects durante el render, los componentes y hooks deben ser puros.
     - Usa React Query o SWR cuando tu componente necesite obtener datos de una API y compartirlos o reutilizarlos entre varios componentes con cache y refetch automático.
     - Registrar en AGENTS.md: Available skills y Skill trigger rules, si no existe lo creas
-    - Utiliza API REST mediante Route Handlers de Next.js.
-    - No utilices Server Actions.
-    - Utiliza estructura monorepo
-    - usar Prisma ORM como capa de acceso a datos
-    - usar SQLite/Postgres como base de datos
-    - incluir carpeta prisma con schema.prisma, datasource sqlite y generator client
-    - crear PrismaService como provider reutilizable
-    - service: contiene lógica de negocio y acceso a datos mediante Prisma
 5. Activation Triggers: cuando el usuario pida crear una aplicación o componente React, o agregar/modificar componentes, hooks, estado, formularios o lógica de UI en React.
 ```

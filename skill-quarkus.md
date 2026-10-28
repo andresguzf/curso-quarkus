@@ -15,7 +15,7 @@
     - group-id de maven com.andres.course.claude.quarkus
     - nombre del proyecto o artifact-id maven mismo que el directorio workspace del proyecto
     - package base de quarkus com.andres.course.claude.quarkus.{artifactId}.app
-    - revisar e incluir dependencias base, Quarkus REST Jackson (quarkus-rest-jackson), validation, SmallRye OpenAPI (quarkus-smallrye-openapi)
+    - revisar e incluir dependencias base, quarkus-rest-jackson (Quarkus REST Jackson), quarkus-arc, quarkus-hibernate-validator, quarkus-smallrye-openapi (SmallRye OpenAPI)
     - Habilitar Live Coding, Hot Reload y Dev UI mediante Quarkus Dev Mode
     - incluir Maven Wrapper (mvnw) en folder `.mvn` y ejecutable `./mvnw` y `./mvnw.cmd`
     - arquitectura repository/service/controller
@@ -27,7 +27,7 @@
     - Agregue clase Mapper, un mapeador para que el servicio pueda convertir entre DTO y entidades explícitamente. mapper convert `entity -> dto` and `dto -> entity`
     - Cuando necesite iniciar la aplicación localmente con Maven, siempre prefiera `./mvnw quarkus:dev` como comando de ejecución predeterminado.
     - registrar en CLAuDE.md: Available skills y Skill trigger rules, si no existe lo creas
-    - Persistencia con Hibernate ORM, Panache y PostgreSQL.
+    - Persistencia con Hibernate ORM, Panache (quarkus-hibernate-orm-panache) y PostgreSQL (quarkus-jdbc-postgresql).
 5. Activation Triggers: cuando el usuario pide crear una API básica para `quarkus`. Tambien cuando el usuario pida crear o agregar o modificar un entity, repository, service o controller de quarkus.
 
 ```

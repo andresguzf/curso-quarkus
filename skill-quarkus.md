@@ -22,7 +22,7 @@
     - crear estructura base con packages models, controllers, repositories y services
     - `controller`: expone únicamente puntos finales REST, valida la entrada, delega a servicios y devuelve DTO
     - `service`: contiene lógica de negocios, organiza repositorios y convierte entre entidades y DTO
-    - repositorios como interfaces que extienden Repository.
+    - repositorios como interfaces que extienden PanacheRepository.
     - para dto usar record en vez de class, excluir campos sensibles como password, created_at, updated_at, create_at, update_at, usar mismo dto request y response
     - Agregue clase Mapper, un mapeador para que el servicio pueda convertir entre DTO y entidades explícitamente. mapper convert `entity -> dto` and `dto -> entity`
     - Cuando necesite iniciar la aplicación localmente con Maven, siempre prefiera `./mvnw quarkus:dev` como comando de ejecución predeterminado.

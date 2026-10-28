@@ -6,12 +6,12 @@
 2. Create new Skill, description: que Genere un proyecto con la estructura de quarkus con capas de controllers, services, repository y models.
 3. Location for skill folder, crealo dentro del directorio del proyecto ‘.claude/skills‘
 4. Specific Instructions:
-    - crear proyecto usando herramienta oficial: https://code.quarkus.io
-    - usar java version 25
-    - usar quarkus 3.40.1 LTS o superior disponible revisar en documentación de quarkus en quarkus.io
-    - usar configuracion basada en properties: application.properties
-    - usar packaging jar
-    - usar maven como package manager
+    - Genera el proyecto usando la herramienta oficial desde Quarkus Code: https://code.quarkus.io
+    - usa java version 25
+    - usa quarkus 3.40.1 LTS o superior disponible revisar en documentación de quarkus en quarkus.io
+    - usa configuracion basada en properties: application.properties
+    - usa packaging jar
+    - usa maven como package manager
     - group-id de maven com.andres.course.claude.quarkus
     - nombre del proyecto o artifact-id maven mismo que el directorio workspace del proyecto
     - package base de quarkus com.andres.course.claude.quarkus.{artifactId}.app

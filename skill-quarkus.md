@@ -27,6 +27,7 @@
     - Agregue clase Mapper, un mapeador para que el servicio pueda convertir entre DTO y entidades explícitamente. mapper convert `entity -> dto` and `dto -> entity`
     - Cuando necesite iniciar la aplicación localmente con Maven, siempre prefiera `./mvnw quarkus:dev` como comando de ejecución predeterminado.
     - registrar en CLAuDE.md: Available skills y Skill trigger rules, si no existe lo creas
+    - Persistencia con Hibernate ORM, Panache y PostgreSQL.
 5. Activation Triggers: cuando el usuario pide crear una API básica para `quarkus`. Tambien cuando el usuario pida crear o agregar o modificar un entity, repository, service o controller de quarkus.
 
 ```

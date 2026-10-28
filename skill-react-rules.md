@@ -29,5 +29,10 @@
     - Utiliza API REST mediante Route Handlers de Next.js.
     - No utilices Server Actions.
     - Utiliza estructura monorepo
+    - usar Prisma ORM como capa de acceso a datos
+    - usar SQLite/Postgres como base de datos
+    - incluir carpeta prisma con schema.prisma, datasource sqlite y generator client
+    - crear PrismaService como provider reutilizable
+    - service: contiene lógica de negocio y acceso a datos mediante Prisma
 5. Activation Triggers: cuando el usuario pida crear una aplicación o componente React, o agregar/modificar componentes, hooks, estado, formularios o lógica de UI en React.
 ```
